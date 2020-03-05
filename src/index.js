@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './containers/main';
+import 'typeface-roboto';
 import * as serviceWorker from './serviceWorker';
 import { history, store } from './store';
 import connectApp from './hocs/provider';
