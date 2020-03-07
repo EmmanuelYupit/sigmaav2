@@ -2,17 +2,18 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import selectors from './selectors';
+import Login from '../Login';
+import Home from '../Home';
 import { Grid } from '@material-ui/core';
-import { AccessAlarm } from '@material-ui/icons';
 
 const App = ({ loggedIn }) => {
     if (!loggedIn)
         return (
-            <Grid container item xs={12} justify="center">
-                Not Logged In <AccessAlarm />
+            <Grid>
+                <Login />
             </Grid>
         );
-    return <div>Logged In</div>;
+    return <Home />;
 };
 
 App.propTypes = {
