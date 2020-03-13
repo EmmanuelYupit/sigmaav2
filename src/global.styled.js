@@ -7,7 +7,7 @@ html, body {
 
 body {
   margin: 0;
-  background-color: lightsteelblue;
+  background-color: rgb(54,141,141,0.5);;
   background-position: center;
   background-size: cover;
 }

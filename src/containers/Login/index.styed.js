@@ -13,7 +13,7 @@ export const Card = styled.div`
     width: 1000px;
     text-align: center;
     border-radius: 5px;
-    margin: auto;
+    margin: 8% auto;
     :hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
