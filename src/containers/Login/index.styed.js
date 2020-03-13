@@ -4,19 +4,10 @@ export const Wrapper = styled.div`
     display: flex;
 `;
 
-/*
-.body{
-    background-color: rgb(54,141,141,0.5);
-    display: flex;
-    margin: 10% auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #707070;
-  }
-*/
 export const Card = styled.div`
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    /* z-index: 1; */
     background-color: white;
     transition: 0.3s;
     width: 1000px;
