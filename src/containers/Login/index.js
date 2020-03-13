@@ -1,15 +1,18 @@
 import React from 'react';
-import { Wrapper, ImageWrapper, FormWrapper } from './index.styed';
+import { Card, Container, LoginTitle, ImgCard } from './index.styed';
+import imgLogin from '../../assets/images/Sch.jpg';
 import LoginForm from '../../components/LoginForm';
 
 const Login = () => (
-    <Wrapper>
-        {' '}
-        <ImageWrapper>Holi</ImageWrapper>
-        <FormWrapper>
+    <Card>
+        <ImgCard src={imgLogin} alt="Avatar" />
+        <Container>
+            <LoginTitle>
+                <b>INGRESAR A SIGMAA</b>
+            </LoginTitle>
             <LoginForm />
-        </FormWrapper>{' '}
-    </Wrapper>
+        </Container>
+    </Card>
 );
 
 export default Login;
